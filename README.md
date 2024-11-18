@@ -1,6 +1,6 @@
 # Week 9/10 lab for WIIT 7501
 
-To work on this lab, we are going to create a new repo by using this template, enable GitHub actions, and edit the secrets and variables to allow a push to a Container Registry in Azure.
+To work on this lab, we are going to create a new repo by using this template and edit the secrets and variables to allow a push to a Container Registry in Azure.
 
 
 ## Create a new repo from this template.
@@ -21,6 +21,8 @@ Scroll down on the left pane, and click the down arrow for the Secrets and Varia
 Update/ add the values in the two menus to be what your instructor says in class
 
 ![secrets updates](./static/secrets.png)
+
+Look at the .github/workflows/ci.yml file for variables and secrets to set.
 
 ## Test
 
