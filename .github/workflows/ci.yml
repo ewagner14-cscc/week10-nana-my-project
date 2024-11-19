@@ -41,7 +41,7 @@ jobs:
         echo "JOB ID: $GITHUB_RUN_ATTEMPT"
     
     - name: log into Azure CR
-      uses: azure/docker-login@v1
+      uses: azure/docker-login@v2
       with:
         login-server: ${{ vars.ACR_HOST }}
         username: ${{ secrets.DOCKER_USER }}
